@@ -9,7 +9,6 @@ pub struct Address {
 
 pub fn generate(chain_id: u8) -> Address {
     let phrase = seed::generate_phrase();
-
     let account = PrivateKeyAccount::from_seed(&phrase);
 
     Address {
