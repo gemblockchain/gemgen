@@ -1,0 +1,15 @@
+[package]
+name = "gemgen"
+version = "0.3.0"
+authors = ["DEADBLACKCLOVER <deadblackclover@protonmail.com>"]
+description = "CLI address generator for Gem"
+edition = "2018"
+license = "GPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/gemblockchain/gemgen"
+repository = "https://github.com/gemblockchain/gemgen"
+keywords = ["address", "blockchain", "gem"]
+
+[dependencies]
+clap = { version = "4.1.6", features = ["derive"] }
+gemblockchain = "0.3"
